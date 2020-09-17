@@ -8,6 +8,7 @@
           xmlns:models="clr-namespace:WPF_Presentation.Models"
           xmlns:views="clr-namespace:WPF_Presentation.Views"
         
+        
         mc:Ignorable="d"
         Title="MainWindow" Height="720" Width="1200" Opacity="0.99" WindowStartupLocation="CenterScreen" > 
     <Window.Resources>

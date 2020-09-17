@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Presentation.Views"
+             
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Background="#FFE8EEF8" >
     <Grid >
@@ -12,17 +13,10 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel Grid.Column="0">
-            <TextBlock Text="Messages" FontSize="20" Padding="40" Foreground="Black" FontFamily="Century Gothic" FontWeight="Normal" />
-            <Button Content="Contact 1"/>
-            <Button Content="Contact 2"/>
-            <Button Content="Contact 3"/>
-            <Button Content="Contact 4"/>
+        <StackPanel x:Name="contactList" Grid.Column="0">
+           
+
         </StackPanel>
-
-        <TextBlock Grid.Column="1" Margin="50" Text="Ring Sen"/>
-
-
 
     </Grid>
 </UserControl>
