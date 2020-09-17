@@ -10,7 +10,7 @@
         <StackPanel x:Name ="contactList">
             <local:ContactControl ContactName="Linnea Nilsson" ContactRole="Student" ContactImage="/20200816_115047_03.jpg" />
             <local:ContactControl ContactName="Linnea Nilsson" ContactRole="Student" ContactImage="/20200816_115047_03.jpg" />
-              <local:ContactControl ContactName="Linnea Nilsson" ContactRole="Student" ContactImage="/20200816_115047_03.jpg" />
+            <local:ContactControl ContactName="Linnea Nilsson" ContactRole="Student" ContactImage="/20200816_115047_03.jpg" />
         </StackPanel>
     </Grid>
 </Window>

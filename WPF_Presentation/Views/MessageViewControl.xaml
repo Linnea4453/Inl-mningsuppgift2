@@ -6,7 +6,26 @@
              xmlns:local="clr-namespace:WPF_Presentation.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#FFF3FDD1">
-            
+    
+    
+    
+    
+    
+    <Grid Background="#FFE8EEF8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.7*" />
+            <ColumnDefinition Width="*"  />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0">
+            <TextBlock Text="Messages" FontSize="20" Padding="40" Foreground="Black" FontFamily="Century Gothic" FontWeight="Normal" />
+            <Button Content="Message 2" Height="46" Padding="15"/>
+            <Button Content="Message 2" Height="46" Padding="15"/>
+            <Button Content="Message 2" Height="46" Padding="15"/>
+          
+        </StackPanel>
+
+
+
     </Grid>
 </UserControl>

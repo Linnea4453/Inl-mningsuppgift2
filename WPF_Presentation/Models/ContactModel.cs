@@ -6,5 +6,8 @@ namespace WPF_Presentation.Models
 {
     class ContactModel
     {
+
+
+
     }
 }

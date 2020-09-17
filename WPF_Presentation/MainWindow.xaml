@@ -9,7 +9,7 @@
           xmlns:views="clr-namespace:WPF_Presentation.Views"
         
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1200" Opacity="0.99">
+        Title="MainWindow" Height="720" Width="1200" Opacity="0.99" WindowStartupLocation="CenterScreen" > 
     <Window.Resources>
         <DataTemplate x:Name="MessageViewTemplate" DataType="{x:Type models:MessageModel}">
             <views:MessageViewControl DataContext="{Binding}"/>
@@ -21,7 +21,6 @@
         <DataTemplate x:Name="CalenderViewTemplate" DataType="{x:Type models:CalenderModel}">
             <views:CalenderViewControl DataContext="{Binding}"/>
         </DataTemplate>
-
 
         <DataTemplate x:Name="TaskViewTemplate" DataType="{x:Type models:TaskModel}">
             <views:TaskViewControl DataContext="{Binding}"/>
@@ -41,7 +40,6 @@
             <ColumnDefinition Width="50"/>
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="0.7*"/>
-            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -50,16 +48,18 @@
         </Grid.RowDefinitions>
 
 
-        <Grid  Grid.Column="0" Background="#FF4472C4"  Grid.RowSpan="6"/>
+        <Grid  Grid.Column="0" Background="#FF4472C4"  Grid.RowSpan="3"/>
         
         
         <Grid x:Name="mainMenu_Grid" Background="#FF82A2D8" Grid.Column="1" Grid.RowSpan="6">
             
             
             <StackPanel AutomationProperties.Name="btnContact"  >
-                <Button x:Name="btnMessages" Click="btnMessages_Click"  Content="Messages" Foreground="White" Background="Transparent" BorderThickness="0" FontSize="18" Padding="10" HorizontalAlignment="Left" Margin="0,475,0,0" FontWeight="Normal"  >
+                <TextBlock Text="&#xEA3B;" FontFamily="Segoe MDL2 Assets" FontSize="110" HorizontalAlignment="Center" Padding="20" Foreground="#FFE8EEF8"/>
+                <TextBlock Text="Linnea Nilsson" Foreground="White" Background="Transparent"  FontSize="18"  HorizontalAlignment="center" FontFamily="Segoe UI" Margin="-10"/>
+                <Button x:Name="btnMessages" Click="btnMessages_Click"  Content="Messages" Foreground="White" Background="Transparent" BorderThickness="0" FontSize="18" Padding="10" HorizontalAlignment="Left" Margin="0,300,0,0" FontWeight="Normal"  >
                 </Button>
-                <Button x:Name="btnContacts" Click="btnContacts_Click" Content="Contacts" Foreground="White" Background="Transparent" BorderThickness="0" FontSize="18" Padding="10" HorizontalAlignment="Left" >
+                <Button x:Name="btnContacts" Click="btnContacts_Click" Content="Contacts" Foreground="White" Background="Transparent" BorderThickness="0" FontSize="18" Padding="10" HorizontalAlignment="Left">
                </Button>
                 <Button x:Name="btnCalander" Click="btnCalander_Click" Content="Calender" Foreground="White" Background="Transparent" BorderThickness="0" FontSize="18" Padding="10" HorizontalAlignment="Left" >
                 </Button>
@@ -75,10 +75,6 @@
 
         <ContentControl Grid.Column="2" Grid.RowSpan="6" Content="{Binding}"/>
 
-
-
-
-        <Grid Background="White" Grid.Column="3" Grid.RowSpan="6"/>
 
     </Grid>
 </Window>
