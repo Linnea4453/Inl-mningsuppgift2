@@ -21,8 +21,8 @@
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center">
-                    <TextBlock x:Name="date"  TextAlignment="Right"  FontFamily="Century Gothic" FontSize="10" Margin="-10,0,0,0" />
-                    <TextBlock x:Name="time"  TextAlignment="Right"  FontFamily="Century Gothic"  FontSize="10" Margin="-10,0,0,0"/>
+                    <TextBlock x:Name="date"  TextAlignment="Right"   FontFamily="Century Gothic" FontSize="10" Margin="-20,0,0,0" />
+                    <TextBlock x:Name="time"  TextAlignment="Right"  FontFamily="Century Gothic"  FontSize="10" Margin="-20,0,0,0"/>
                 </StackPanel>
                 
                 

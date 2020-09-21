@@ -21,6 +21,40 @@
             <TextBlock Text="Contacts" FontSize="20" Padding="40" Foreground="Black" FontFamily="Century Gothic" FontWeight="Normal"/> 
         </StackPanel>
 
+        <Grid Grid.Column="1" Background="White" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1" Margin="35,45,0,25">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock x:Name="icon" Text="&#xEA3B;" FontFamily="Segoe MDL2 Assets" FontSize="50" Foreground="#FFE8EEF8" />
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" >
+                    <TextBlock x:Name="from" Text="From Contact Name" FontWeight="Bold" />
+                    <TextBlock x:Name="to" Text="To Contact Name" />
+                </StackPanel>
+
+            </Grid>
+
+
+            <TextBlock Grid.Row="2" x:Name="body" TextWrapping="Wrap" Text="Hej där, här är ett meddelande för att se hur allt funkar och för att du ska se att det händer någonting. Mvh Linnea" />
+
+
+
+
+
+        </Grid>
+
 
 
 

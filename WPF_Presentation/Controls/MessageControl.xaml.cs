@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -48,8 +49,10 @@ namespace WPF_Presentation.Controls
 
         }
 
-        private void Btn_messages_Click(object sender, RoutedEventArgs e)
+        public void Btn_messages_Click(object sender, RoutedEventArgs e)
      {
+
+       
 
        }
     }

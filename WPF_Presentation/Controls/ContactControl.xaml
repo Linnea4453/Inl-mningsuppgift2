@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WPF_Presentation.Controls"
              mc:Ignorable="d" 
              d:DesignHeight="80" d:DesignWidth="300" Height="80" Width="300" >
-    <Button Background="Transparent" BorderThickness="0" Height="80" Width="300">
+    <Button x:Name="Btn_contacts" Background="Transparent" BorderThickness="0" Height="80" Width="300">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="250" />
@@ -14,8 +14,8 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" Width="250" Height="65" HorizontalAlignment="Left" Margin="10,0,0,0">
-                <TextBlock x:Name="contactName"  Text="Jonas Nilsson"  FontWeight="Bold" FontFamily="Century Gothic" FontSize="20" Margin="0,0,0,10"/>
-                <TextBlock x:Name="contactNumber"  Text="0722151916" FontFamily="Century Gothic"  HorizontalAlignment="Left" FontSize="18" />
+                <TextBlock x:Name="contactName"    FontWeight="Bold" FontFamily="Century Gothic" FontSize="20" Margin="0,0,0,10"/>
+                <TextBlock x:Name="contactNumber"  FontFamily="Century Gothic"  HorizontalAlignment="Left" FontSize="18" />
             </StackPanel>
 
             <StackPanel Grid.Column="1" Margin="0,0,0,0">

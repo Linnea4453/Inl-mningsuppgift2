@@ -24,6 +24,7 @@ namespace WPF_Presentation.Views
 
             var ContactList = new List<string>() {
               "",
+              "",
              
 
 
