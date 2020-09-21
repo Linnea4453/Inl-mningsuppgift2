@@ -8,30 +8,12 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="#FFE9EFF8">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="30"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="30*"/>
-            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="auto"/>
+     
         </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="20"  />
-            <RowDefinition />
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-
-        </Grid.RowDefinitions>
+    
         <Grid>
-            
-             <TextBlock Grid.Row="0" Grid.ColumnSpan="8 " Text="Week" />
-       
-
+            <Image x:Name="calenderImage" Grid.Column="0" Height="450" Width="800" VerticalAlignment="Center" Source="/Views/kalender.jpg"/>
         </Grid>
     </Grid>
 </UserControl>

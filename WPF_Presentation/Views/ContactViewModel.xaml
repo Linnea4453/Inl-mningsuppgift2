@@ -4,19 +4,25 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Presentation.Views"
+             xmlns:controls="clr-namespace:WPF_Presentation.Controls"
              
-             mc:Ignorable="d" 
+      
+
+    mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Background="#FFE8EEF8" >
     <Grid >
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.7*" />
+            <ColumnDefinition Width="300" />
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel x:Name="contactList" Grid.Column="0">
-           
 
+        <StackPanel x:Name="contactList" Grid.Column="0">
+            <TextBlock Text="Contacts" FontSize="20" Padding="40" Foreground="Black" FontFamily="Century Gothic" FontWeight="Normal"/> 
         </StackPanel>
+
+
+
 
     </Grid>
 </UserControl>

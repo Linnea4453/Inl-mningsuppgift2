@@ -24,10 +24,6 @@ namespace WPF_Presentation
         public MainWindow()
         {
             InitializeComponent();
-
-      
-
-
         }
 
         private void btnMessages_Click(object sender, RoutedEventArgs e)

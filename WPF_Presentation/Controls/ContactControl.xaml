@@ -5,21 +5,23 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Presentation.Controls"
              mc:Ignorable="d" 
-             d:DesignHeight="65" d:DesignWidth="300">
-    <Button Background="Transparent" BorderThickness="0" HorizontalAlignment="Left">
+             d:DesignHeight="80" d:DesignWidth="300" Height="80" Width="300" >
+    <Button Background="Transparent" BorderThickness="0" Height="80" Width="300">
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="65"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250" />
+                <ColumnDefinition Width="50"/>
             </Grid.ColumnDefinitions>
-            <Image x:Name="contactImage" Grid.Column="0" Height="60" Width="60"/>
-            <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10">
-                <TextBlock x:Name="contactName"  FontWeight="Bold" FontFamily="Century Gothic" Margin="0,0,0,5"/>
-                <TextBlock x:Name="contactNumber"  FontFamily="Century Gothic" FontStyle="Italic" HorizontalAlignment="Center" FontSize="10" Foreground="#FF5F5A5A"/>
 
-
+            <StackPanel Grid.Column="0" Width="250" Height="65" HorizontalAlignment="Left" Margin="10,0,0,0">
+                <TextBlock x:Name="contactName"  Text="Jonas Nilsson"  FontWeight="Bold" FontFamily="Century Gothic" FontSize="20" Margin="0,0,0,10"/>
+                <TextBlock x:Name="contactNumber"  Text="0722151916" FontFamily="Century Gothic"  HorizontalAlignment="Left" FontSize="18" />
             </StackPanel>
 
+            <StackPanel Grid.Column="1" Margin="0,0,0,0">
+                <TextBlock  Text="&#xE717;" FontFamily="Segoe MDL2 Assets" FontSize="25"  Foreground="Black" HorizontalAlignment="Center" Margin="0,5,0,0" />
+                <TextBlock  Text="&#xE715;" FontFamily="Segoe MDL2 Assets" FontSize="25" Foreground="Black"  HorizontalAlignment="Center" Margin="0,5,0,0"  />
+            </StackPanel>
 
         </Grid>
     </Button>

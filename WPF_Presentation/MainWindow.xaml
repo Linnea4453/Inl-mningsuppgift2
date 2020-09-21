@@ -7,6 +7,8 @@
         
           xmlns:models="clr-namespace:WPF_Presentation.Models"
           xmlns:views="clr-namespace:WPF_Presentation.Views"
+        xmlns:controls="clr-namespace:WPF_Presentation.Controls"
+        
         
         
         mc:Ignorable="d"

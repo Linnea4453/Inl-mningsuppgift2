@@ -10,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF_Presentation.Controls;
+using WPF_Presentation.Models;
 
 namespace WPF_Presentation.Views
 {
@@ -21,6 +23,19 @@ namespace WPF_Presentation.Views
         public MessageViewControl()
         {
             InitializeComponent();
+
+           
+           
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Jonas Nilsson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01"});
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Johannes Nilsson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
         }
+
     }
 }

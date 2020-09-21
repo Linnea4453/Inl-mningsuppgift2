@@ -21,6 +21,13 @@ namespace WPF_Presentation.Views
         public CalenderViewControl()
         {
             InitializeComponent();
+             }
+
+
+             public ImageSource CalenderImage
+        {
+            get { return calenderImage.Source; }
+            set { calenderImage.Source = value; }
         }
     }
 }

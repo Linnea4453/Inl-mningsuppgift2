@@ -22,12 +22,7 @@ namespace WPF_Presentation.Controls
         {
             InitializeComponent();
         }
-        public ImageSource ContactImage 
-        { 
-            get { return contactImage.Source; }
-            set { contactImage.Source = value; }
-        }
-
+     
         public string ContactName
         {
             get { return contactName.Text; }
