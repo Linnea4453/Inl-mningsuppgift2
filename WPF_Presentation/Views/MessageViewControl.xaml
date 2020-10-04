@@ -37,14 +37,16 @@
 
                 <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="15" >
                     <TextBlock x:Name="from" Text="From Contact Name" FontWeight="Bold" />
-                    <TextBlock x:Name="to" Text="Tó Contact Name"/>
+                    <TextBlock x:Name="to" Text="To Contact Name"/>
                 </StackPanel>
 
             </Grid>
 
 
-            <TextBlock Grid.Row="2" Padding="25" x:Name="body"  TextWrapping="Wrap" />
+        
 
+            <TextBlock Grid.Row="2" Padding="25" x:Name="body"  TextWrapping="Wrap" Text="Hejsan! Det här är bara för att du ska se att jag kan designa. jag har lite problem med Costum Control. Hoppas jag hinner lösa det tills nästa gånga vi ska göra detta då det var väldigt roligt att göra."/>
+            <TextBlock Grid.Row="2" Padding="80"    Text="Med Vänliga Hälsningar Contact Name" Foreground="#FF998E8E"/>
 
 
 

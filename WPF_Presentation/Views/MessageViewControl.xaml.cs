@@ -24,26 +24,23 @@ namespace WPF_Presentation.Views
         public MessageViewControl()
         {
             InitializeComponent();
-
-
-           
-           
-           /* MessagesList.Children.Add(new Controls.MessageControl() { From = "From Jonas Nilsson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01"});
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Johannes Nilsson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
-           */ 
-            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Malin Petterson", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
+            MessagesList.Children.Add(new Controls.MessageControl() { From = "From Contact Name", Description = "kort beskrivning av meddelande", Date = "2020-09-21", Time = "13:01" });
         }
         public void Btn_messages_Click(object sender, RoutedEventArgs e)
         {
-            body.Text = "Hej, här är bara en text för att du ska se att jag kan göra designen som den ska vara, har lite problem med costum control bara. Mvh Linnea";
-            to.Text = "Linnea Nilsson";
-            from.Text = "Malin Petterson";
+
+
+           
+            to.Text = "Contact Name";
+            from.Text = "Contact Name";
 
 
            

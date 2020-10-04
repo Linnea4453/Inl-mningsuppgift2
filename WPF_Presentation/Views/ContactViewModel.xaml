@@ -5,16 +5,21 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF_Presentation.Views"
              xmlns:controls="clr-namespace:WPF_Presentation.Controls"
-             
+             xmlns:models="clr-namespace:WPF_Presentation.Models"
       
 
     mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Background="#FFE8EEF8" >
     <Grid >
+        <Grid.Resources>
+            <models:ContactModel x:Key="contact" />
+        </Grid.Resources>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300" />
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        
 
 
         <StackPanel x:Name="contactList" Grid.Column="0">
